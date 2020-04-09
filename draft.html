@@ -1,0 +1,37 @@
+
+
+var board = new Board();
+
+Board ();{
+  this.spaces = [[x=0,y=0],[x=0,y=1],[x]];
+  
+}
+
+Player()
+ver testPlayer = new Player(); 
+
+Space(x,y){
+  this.x=x;
+  this.y=y;
+  this.player = null;
+}
+
+Space.prototype.xCoordinator = function(){
+  return x;
+}
+Space.prototype.yCoordinator = function(){
+  return y;
+}
+
+Space.prototype.mark = function(testPlayer){
+  this.player = testPlayer
+ 
+
+}
+Space.prototype.markBy = function(){
+  return this.player;
+  
+} 
+
+x=0;
+y=0;
